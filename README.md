@@ -1,6 +1,3 @@
-# regime-aware-news-trading
-A regime-aware commodity trading project combining HMM-TVTP market regime detection, LLM-based extraction of oil news shocks, and supervised Mixture-of-Experts models to predict regime-dependent price reactions.
-
 # Regime-Aware News Trading
 
 A regime-aware commodity trading project combining **HMM-TVTP market regime detection**, **LLM-based extraction of commodity news shocks**, and a **Mixture of Experts** to model regime-dependent price reactions.
