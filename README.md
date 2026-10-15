@@ -103,12 +103,7 @@ where $r_{t,t+h}$ is the oil return over a chosen post-news horizon.
 
 The HMM regime probabilities act as soft gating weights:
 
-$$
-\hat{r}_{t,t+h}
-=
-\sum_{k=1}^{K}
-P(S_t=k \mid \mathcal{F}_{t^-}) f_k(N_t)
-$$
+$$ \hat{r}_{t,t+h} = \sum_{k=1}^{K} P(S_t=k \mid \mathcal{F}_{t^-}) f_k(N_t) $$
 
 This allows the same news event to generate different expected reactions depending on the prevailing market environment.
 
